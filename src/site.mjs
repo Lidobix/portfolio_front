@@ -37,7 +37,7 @@ class SiteBuilder {
 
     DomCreator.createNodeAppended(
       'img',
-      ['invisible'],
+      ['invisible', 'transition100'],
       {
         id: 'navArrowTop',
         src: './assets/images/top_arrow.png',

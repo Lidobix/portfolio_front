@@ -1,18 +1,20 @@
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../assets/fonts/roboto-condensed-v27-latin-regular.woff2') format('woff2');
-  }
-  /* roboto-condensed-700 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../assets/fonts/roboto-condensed-v27-latin-700.woff2') format('woff2');
-  }
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/roboto-condensed-v27-latin-regular.woff2')
+    format('woff2');
+}
+/* roboto-condensed-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/roboto-condensed-v27-latin-700.woff2')
+    format('woff2');
+}
 
 html {
   --black_strong: #000000;
@@ -99,11 +101,11 @@ h3 + p {
   z-index: 10;
   height: 30px;
   cursor: pointer;
-  transition: 100ms;
+  /* transition: 100ms;
   -webkit-transition: 100ms;
   -moz-transition: 100ms;
   -ms-transition: 100ms;
-  -o-transition: 100ms;
+  -o-transition: 100ms; */
 }
 
 #navArrowTop:hover {
